@@ -129,7 +129,6 @@ class Program:
             self.draw_block([body_part[0]*self.BLOCK_SIZE, body_part[1]*self.BLOCK_SIZE], self.COLORS["body"])
         self.draw_block([self.body_parts[-1][0]*self.BLOCK_SIZE, self.body_parts[-1][1]*self.BLOCK_SIZE], self.COLORS["head"])
 
-
     def next_iteration(self):
 
         self.canvas.delete("all")
